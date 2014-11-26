@@ -1,0 +1,10 @@
+C:\my-repositories\libdargon.filesystem-impl\bin\Debug\libdargon.filesystem-impl.dll
+C:\my-repositories\libdargon.filesystem-impl\bin\Debug\libdargon.filesystem-impl.pdb
+C:\my-repositories\libdargon.filesystem-impl\bin\Debug\libdargon.filesystem-api.dll
+C:\my-repositories\libdargon.filesystem-impl\bin\Debug\libdnode.dll
+C:\my-repositories\libdargon.filesystem-impl\bin\Debug\libwarty.dll
+C:\my-repositories\libdargon.filesystem-impl\bin\Debug\libwarty.proxies-api.dll
+C:\my-repositories\libdargon.filesystem-impl\bin\Debug\NLog.dll
+C:\my-repositories\libdargon.filesystem-impl\obj\Debug\libdargon.filesystem-impl.csprojResolveAssemblyReference.cache
+C:\my-repositories\libdargon.filesystem-impl\obj\Debug\libdargon.filesystem-impl.dll
+C:\my-repositories\libdargon.filesystem-impl\obj\Debug\libdargon.filesystem-impl.pdb
