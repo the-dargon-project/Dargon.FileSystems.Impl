@@ -31,7 +31,6 @@ namespace Dargon.FileSystem {
          var children = internalHandle.Node.Children;
          childHandles = Util.Generate(children.Count, i => GetNodeHandle(children[i]));
          return IoResult.Success;
-         ;
       }
 
       public IoResult AllocateRelativeHandleFromPath(IFileSystemHandle baseNode, string relativePath, out IFileSystemHandle handle) {
