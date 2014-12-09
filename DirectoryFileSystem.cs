@@ -34,6 +34,24 @@ namespace Dargon.FileSystem {
          ;
       }
 
+      public IoResult AllocateRelativeHandleFromPath(IFileSystemHandle baseNode, string relativePath, out IFileSystemHandle handle) {
+         var internalHandle = baseNode as InternalHandle;
+         handle = null;
+
+         if (internalHandle == null || internalHandle.State == HandleState.Invalidated || internalHandle.State == HandleState.Disposed) {
+            return IoResult.InvalidHandle;
+         }
+
+         var foundNode = internalHandle.Node.GetRelativeOrNull(relativePath);
+
+         if (foundNode == null) {
+            return IoResult.NotFound;
+         }
+
+         handle = GetNodeHandle(foundNode);
+         return IoResult.Success;
+      }
+
       public IoResult ReadAllBytes(IFileSystemHandle handle, out byte[] bytes) {
          var internalHandle = handle as InternalHandle;
          if (internalHandle == null) {
