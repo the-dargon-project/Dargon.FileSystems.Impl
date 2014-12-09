@@ -114,7 +114,7 @@ namespace Dargon.FileSystem {
          return IoResult.Success;
       }
 
-      private InternalHandle GetNodeHandle(IReadableDargonNode node) {
+      private IFileSystemHandle GetNodeHandle(IReadableDargonNode node) {
          return handlesByNode.AddOrUpdate(node, n => new InternalHandle(n), (n, h) => {
             h.IncrementReferenceCount();
             return h;
