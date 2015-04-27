@@ -1,14 +1,11 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Runtime.InteropServices;
+using System.Threading;
 using Dargon.IO;
 using ItzWarty;
 using ItzWarty.Collections;
-using System.Collections.Generic;
-using System.Threading;
-using ItzWarty.IO;
 
-namespace Dargon.FileSystem {
+namespace Dargon.FileSystems {
    public class DirectoryFileSystem : IFileSystem {
       private readonly IWritableDargonNode baseNode;
       private readonly ConcurrentDictionary<IReadableDargonNode, InternalHandle> handlesByNode = new ConcurrentDictionary<IReadableDargonNode, InternalHandle>();

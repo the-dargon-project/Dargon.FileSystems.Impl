@@ -1,6 +1,6 @@
 ﻿using Dargon.IO;
 
-namespace Dargon.FileSystem {
+namespace Dargon.FileSystems {
    public class FileSystemFactory : IFileSystemFactory {
       private readonly IDargonNodeFactory dargonNodeFactory;
 

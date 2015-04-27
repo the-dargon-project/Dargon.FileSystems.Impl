@@ -7,8 +7,8 @@
     <ProjectGuid>{B90463B3-2CAF-4422-A0DD-5D19FCCC3998}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dargon.FileSystem</RootNamespace>
-    <AssemblyName>libdargon.filesystem-impl</AssemblyName>
+    <RootNamespace>Dargon.FileSystems</RootNamespace>
+    <AssemblyName>Dargon.FileSystems.Impl</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
@@ -31,21 +31,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="libdargon.filesystem-api, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\libdargon.filesystem-api.0.0.2\lib\net45\libdargon.filesystem-api.dll</HintPath>
+    <Reference Include="Dargon.FileSystems.Api">
+      <HintPath>packages\Dargon.FileSystems.Api.0.1.0\lib\net45\Dargon.FileSystems.Api.dll</HintPath>
     </Reference>
-    <Reference Include="libdnode">
-      <HintPath>packages\libdnode.0.0.1\lib\net45\libdnode.dll</HintPath>
+    <Reference Include="Dargon.IO">
+      <HintPath>packages\Dargon.IO.0.1.0\lib\net45\Dargon.IO.dll</HintPath>
     </Reference>
-    <Reference Include="libwarty">
-      <HintPath>packages\libdnode.0.0.1\lib\net45\libwarty.dll</HintPath>
+    <Reference Include="ItzWarty.Commons">
+      <HintPath>packages\ItzWarty.Commons.0.1.1\lib\portable-net45+netcore45+MonoAndroid1+MonoTouch1\ItzWarty.Commons.dll</HintPath>
     </Reference>
-    <Reference Include="libwarty.proxies-api">
-      <HintPath>packages\libdnode.0.0.1\lib\net45\libwarty.proxies-api.dll</HintPath>
+    <Reference Include="ItzWarty.Proxies.Api">
+      <HintPath>packages\ItzWarty.Proxies.Api.0.1.0\lib\net45\ItzWarty.Proxies.Api.dll</HintPath>
     </Reference>
     <Reference Include="NLog">
-      <HintPath>packages\libdnode.0.0.1\lib\net45\NLog.dll</HintPath>
+      <HintPath>packages\NLog.3.1.0.0\lib\net45\NLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
