@@ -31,20 +31,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Dargon.FileSystems.Api">
-      <HintPath>packages\Dargon.FileSystems.Api.0.1.0\lib\net45\Dargon.FileSystems.Api.dll</HintPath>
+    <Reference Include="Dargon.FileSystems.Api, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Dargon.FileSystems.Api.0.1.0\lib\net45\Dargon.FileSystems.Api.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Dargon.IO">
-      <HintPath>packages\Dargon.IO.0.1.0\lib\net45\Dargon.IO.dll</HintPath>
+    <Reference Include="Dargon.IO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Dargon.IO.0.1.0\lib\net45\Dargon.IO.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="ItzWarty.Commons">
-      <HintPath>packages\ItzWarty.Commons.0.1.1\lib\portable-net45+netcore45+MonoAndroid1+MonoTouch1\ItzWarty.Commons.dll</HintPath>
+    <Reference Include="ItzWarty.Commons, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ItzWarty.Commons.0.1.1\lib\portable-net45+netcore45+MonoAndroid1+MonoTouch1\ItzWarty.Commons.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="ItzWarty.Proxies.Api">
-      <HintPath>packages\ItzWarty.Proxies.Api.0.1.0\lib\net45\ItzWarty.Proxies.Api.dll</HintPath>
+    <Reference Include="ItzWarty.Proxies.Api, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ItzWarty.Proxies.Api.0.1.0\lib\net45\ItzWarty.Proxies.Api.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="NLog">
-      <HintPath>packages\NLog.3.1.0.0\lib\net45\NLog.dll</HintPath>
+    <Reference Include="NLog, Version=3.1.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NLog.3.1.0.0\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
